@@ -16,6 +16,8 @@ def test_bar_chart():
 
     plt.figure(figsize=(14, 8))
 
+    bottom = 0
+
     for column in rates_columns:
         plt.bar(filtered_data['Area'], 
                 filtered_data[column], 
