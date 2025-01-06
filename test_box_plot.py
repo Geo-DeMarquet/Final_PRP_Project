@@ -1,7 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def generate_boxplot(health_data):
+def generate_boxplot():
+    
+    health_data = pd.read_csv('mental_health.csv')
+
     rates_columns = [
         'Mixed anxiety depression-Rates per 1000 population',
         'All phobias-Rates per 1000 population',

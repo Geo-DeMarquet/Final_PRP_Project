@@ -20,6 +20,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libgirepository1.0-dev  # Installs gobject-introspection-dev
       - store_artifacts:
+          path: bar_chart_output.png  
+          destination: bar_chart_output.png #uploads an artifact
+      - store_artifacts:
           path: box_plot_output.png  
           destination: box_plot_output.png #uploads an artifact
 workflows:
