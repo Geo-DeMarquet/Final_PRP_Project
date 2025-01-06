@@ -25,4 +25,9 @@ def generate_boxplot(health_data):
     plt.ylabel('Rates per 1000 Population')
 
     plt.tight_layout()
-    plt.close()  
+
+    plt.savefig('box_plot_output.png')
+
+    plt.close()
+
+    print("Boxplot has been saved as 'box_plot_output.png'.")
