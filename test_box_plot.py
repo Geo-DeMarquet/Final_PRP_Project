@@ -1,8 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def generate_boxplot():
-    
+def test_box_plot():
+
     health_data = pd.read_csv('mental_health.csv')
 
     rates_columns = [
@@ -30,8 +30,6 @@ def generate_boxplot():
     plt.tight_layout()
 
     plt.savefig('box_plot_output.png')
-
-    plt.savefig('/home/circleci/project/box_plot_output.png')
 
     plt.close()
 
