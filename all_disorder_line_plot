@@ -29,7 +29,7 @@ def test_disorder_line_plot():
     plt.grid(True)
     plt.tight_layout()
 
-    plt.savefig('trend_plot_output.png')
+    plt.savefig('trend_disorder_output.png')
     plt.close()
 
     assert filtered_data is not None and not filtered_data.empty, "Filtered data is empty"

@@ -25,6 +25,9 @@ jobs:
       - store_artifacts:
           path: box_plot_output.png  
           destination: box_plot_output.png #uploads an artifact
+      - store_artifacts:
+          path: trend_disorder_output.png
+          destination: trend_disorder_output.png #uploads an artifact
 workflows:
   version: 2
   build-and-test:
