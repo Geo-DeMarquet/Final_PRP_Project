@@ -28,6 +28,8 @@ def generate_boxplot(health_data):
 
     plt.savefig('box_plot_output.png')
 
+    plt.savefig('/home/circleci/project/box_plot_output.png')
+
     plt.close()
 
     assert filtered_data is not None and not filtered_data.empty, "Filtered data is empty"
