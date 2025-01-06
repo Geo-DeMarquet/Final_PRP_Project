@@ -30,4 +30,6 @@ def generate_boxplot(health_data):
 
     plt.close()
 
+    assert filtered_data is not None and not filtered_data.empty, "Filtered data is empty"
+
     print("Boxplot has been saved as 'box_plot_output.png'.")
