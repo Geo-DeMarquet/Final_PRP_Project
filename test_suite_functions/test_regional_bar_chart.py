@@ -17,7 +17,7 @@ def test_bar_plot():  # Defines test function
     ]
 
     # Plotting the bar chart
-    plt.figure(figsize=(25, 10))  # Figure dimensions
+    plt.figure(figsize=(25, 15))  # Figure dimensions
     filtered_data.set_index('Area')[disorders].plot(kind='bar', colormap='cividis', alpha=0.8)
     #cividis is beneficial for colourblind readers - important for this plot as there is a wide disparity between some bars
 
@@ -25,7 +25,7 @@ def test_bar_plot():  # Defines test function
     plt.xlabel('Region', fontsize=12)
     plt.ylabel('Rates per 1000 Population', fontsize=12)
     plt.xticks(rotation=90)
-    plt.legend(title='Disorders prevalence by Region')
+    plt.legend(title='Disorders')
     plt.tight_layout()
 
     plt.savefig('regional_bar_chart.png')  # Saves figure (see CircleCI yml file for artifact pathing)
