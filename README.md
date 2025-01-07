@@ -5,9 +5,13 @@ Analysing the Prevalence of a Variety of Mental Disorders in each London Borough
 
 ## Table of Contents
 [CircleCI] - Contains a Config.yml file to Set-up the CircleCI Pipeline and Save PNG Artifacts
+
 [_pycache_] - File Cache
+
 [.venv] - Virtual Environment
+
 [original_code] - copy of original code (not defined as a function for test_suite)
+
 [test_suite_functions] - functions for testing within CircleCI and generating artifacts
 
 'mental_health.csv' - data set used in all test functions
