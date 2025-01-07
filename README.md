@@ -15,7 +15,9 @@ Analysing the Prevalence of a Variety of Mental Disorders in each London Borough
 [test_suite_functions] - functions for testing within CircleCI and generating artifacts
 
 'mental_health.csv' - data set used in all test functions
+
 'requirements.txt' - system requirements for code to be ran
+
 'pandas' - assists in the installation and running of python within the report
 
 ## Installation
@@ -23,7 +25,9 @@ Analysing the Prevalence of a Variety of Mental Disorders in each London Borough
 
 ## Acknowledgements
 The London Datastore (https://data.london.gov.uk/dataset/prevalence-common-mental-health-problems-borough)
+
 All DAT5902 Module Organisers, Demonstrators and Professor
+
 All Reference Sources listed within the Associated Report
 
 ## Contact
