@@ -17,7 +17,7 @@ def test_bar_plot():  # Defines test function
     ]
 
     # Plotting the bar chart
-    plt.figure(figsize=(12, 6))  # Figure dimensions
+    plt.figure(figsize=(16, 8))  # Figure dimensions
     filtered_data.set_index('Area')[disorders].plot(kind='bar', colormap='cividis', alpha=0.8)
     #cividis is beneficial for colourblind readers - important for this plot as there is a wide disparity between some bars
 
