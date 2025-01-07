@@ -20,9 +20,6 @@ Analysing the Prevalence of a Variety of Mental Disorders in each London Borough
 
 'pandas' - assists in the installation and running of python within the report
 
-## Installation
-
-
 ## Acknowledgements
 The London Datastore (https://data.london.gov.uk/dataset/prevalence-common-mental-health-problems-borough)
 
