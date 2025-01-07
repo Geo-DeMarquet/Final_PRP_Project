@@ -21,7 +21,7 @@ def test_bar_plot():  # Defines test function
     filtered_data.set_index('Area')[disorders].plot(kind='bar', colormap='cividis', alpha=0.8)
     #cividis is beneficial for colourblind readers - important for this plot as there is a wide disparity between some bars
 
-    plt.title('Comparison of Disorder Rates Across Boroughs', fontsize=14)
+    plt.title('Comparison of Disorder Rates Across Boroughs', fontsize=12)
     plt.xlabel('Region', fontsize=12)
     plt.ylabel('Rates per 1000 Population', fontsize=12)
     plt.xticks(rotation=90)
