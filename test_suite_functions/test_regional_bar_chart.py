@@ -25,7 +25,7 @@ def test_bar_plot():  # Defines test function
     plt.xlabel('Region', fontsize=12)
     plt.ylabel('Rates per 1000 Population', fontsize=12)
     plt.xticks(rotation=90)
-    plt.legend(title='Disorders') #layout
+    plt.legend(title='Disorders', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize=10, title_fontsize=12)
     plt.tight_layout()
 
     plt.savefig('regional_bar_chart.png')  # Saves figure (see CircleCI yml file for artifact pathing)
