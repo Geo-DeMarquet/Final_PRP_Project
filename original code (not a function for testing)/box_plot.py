@@ -1,4 +1,4 @@
-from test_suite_functions.test_dataframe import *
+from test_dataframe import *
 
 rates_columns = [
     'Mixed anxiety depression-Rates per 1000 population',

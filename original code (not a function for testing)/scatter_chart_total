@@ -1,0 +1,21 @@
+#from dataframe import *
+#
+#excluded_codes = ['A', 'B', 'D', 'E', 'F', 'G', 'H', 'J', 'K', '921'] #excluded due to representing an area (north, east etc. rather than a borough)
+#filtered_data = health_data[~health_data['Code'].isin(excluded_codes)] #filters data to only include boroughs
+
+#plt.figure(figsize=(12, 6))
+#
+#plt.plot(filtered_data['Area'], #uses filtered data so only boroughs are incorporated
+#         filtered_data['Any neurotic disorder-Rates per 1000 population'], 
+#         marker='o', color='red', linestyle='')
+
+#for i, (area, rate) in enumerate(zip(filtered_data['Area'], filtered_data['Any neurotic disorder-Rates per 1000 population'])):
+#    plt.vlines(x=area, ymin=0, ymax=rate, colors='gray', alpha=0.5, linestyles='dotted') #dotted to help reader track data points to relevant borough
+
+#plt.title('Any Neurotic Disorder Rates Across Boroughs')
+#plt.xlabel('Borough')
+#plt.ylabel('Rates per 1000 Population') #relevant axes
+#plt.xticks(rotation=90)
+#plt.grid(axis='y', linestyle='--', alpha=0.5) #improving readability
+#plt.tight_layout()
+#plt.show()
