@@ -5,7 +5,7 @@ def test_bar_plot():  # Defines test function
 
     health_data = pd.read_csv('mental_health.csv')  # Reads in CSV 
 
-    included_codes = ['A', 'B', 'D', 'E', 'F', 'G', 'H', 'J', 'K', '921']  # Included regions codes
+    included_codes = ['A', 'B', 'E', 'F', 'G', 'H', 'J', 'K', '921']  # Included regions codes
     filtered_data = health_data[health_data['Code'].isin(included_codes)]  # Filters data to only include regions
 
     disorders = [
