@@ -1,9 +1,9 @@
-# Final_PRP_Project
+## Final_PRP_Project
 
-# Description
+## Description
 Analysing the Prevalence of a Variety of Mental Disorders in each London Borough using data collated from 2006 to provide insight into how this can inform our understanding of the treatment of disorders in the UK in the past and present.
 
-# Table of Contents
+## Table of Contents
 [CircleCI] - Contains a Config.yml file to Set-up the CircleCI Pipeline and Save PNG Artifacts
 [_pycache_] - File Cache
 [.venv] - Virtual Environment
@@ -14,10 +14,10 @@ Analysing the Prevalence of a Variety of Mental Disorders in each London Borough
 'requirements.txt' - system requirements for code to be ran
 'pandas' - assists in the installation and running of python within the report
 
-# Installation
+## Installation
 
 
-# Acknowledgements
+## Acknowledgements
 The London Datastore (https://data.london.gov.uk/dataset/prevalence-common-mental-health-problems-borough)
 All DAT5902 Module Organisers, Demonstrators and Professor
 All Reference Sources listed within the Associated Report
