@@ -30,7 +30,10 @@ jobs:
           destination: trend_disorder_output.png #uploads an artifact
       - store_artifacts:
           path: scatter_disorder_plot.png
-          destination: scatter_disorder_plot.png #uploads an artifact          
+          destination: scatter_disorder_plot.png #uploads an artifact      
+      - store_artifacts:
+          path: regional_bar_chart.png
+          destination: regional_bar_chart.png #uploads an artifact       
 workflows:
   version: 2
   build-and-test:
