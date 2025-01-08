@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def compare_population_neurotic_disorder():
+def test_population_disorder():
 
     health_data = pd.read_csv('mental_health.csv') # Load the dataset
     
