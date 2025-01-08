@@ -26,7 +26,6 @@ def test_population_disorder():
     plt.xticks(rotation=90) #stylisation + readability
     plt.legend()
     plt.tight_layout()
-    plt.show()
     
     plt.savefig('population_vs_disorder.png')
 
