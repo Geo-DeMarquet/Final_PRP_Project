@@ -29,7 +29,8 @@ def compare_population_neurotic_disorder():
     plt.show()
     
     plt.savefig('population_vs_disorder.png')
-    print("Bar chart saved as 'population_vs_disorder.png'.") #pathing to artifact found in CircleCI yml
+
+    print("Bar chart saved as 'population_vs_disorder.png'") #pathing to artifact found in CircleCI yml
     
     plt.close()
     

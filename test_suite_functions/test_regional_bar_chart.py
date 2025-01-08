@@ -18,7 +18,7 @@ def test_bar_plot():  # Defines test function
         'Panic disorder-Rates per 1000 population'
     ]
 
-    # Plotting the bar chart
+    #Plotting the bar chart
     plt.figure(figsize=(25, 15))  # Figure dimensions
     filtered_data.set_index('Area')[disorders].plot(kind='bar', colormap='cividis', alpha=0.8)
     #cividis is beneficial for colourblind readers - important for this plot as there is a wide disparity between some bars
@@ -30,11 +30,11 @@ def test_bar_plot():  # Defines test function
     plt.legend(title='Disorders', fontsize=5)
     plt.tight_layout()
 
-    plt.savefig('regional_bar_chart.png')  # Saves figure (see CircleCI yml file for artifact pathing)
+    plt.savefig('regional_bar_chart.png')  #Saves figure (see CircleCI yml file for artifact pathing)
     plt.close()
 
     #including an assertion
     assert filtered_data is not None and not filtered_data.empty, "Filtered data is empty"
 
-    print("Bar plot has been saved as 'bar_plot_output.png'.")  # Success message
+    print("Bar plot has been saved as 'regional_bar_chart.png'.")  #Success message
 
