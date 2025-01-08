@@ -13,7 +13,9 @@ def test_bar_plot():  # Defines test function
         'All phobias-Rates per 1000 population',
         'Depressive episode-Rates per 1000 population',
         'Generalised anxiety disorder-Rates per 1000 population',
-        'Mixed anxiety depression-Rates per 1000 population'
+        'Mixed anxiety depression-Rates per 1000 population',
+        'Obsessive compulsive disorder-Rates per 1000 population'
+        'Panic disorder-Rates per 1000 population'
     ]
 
     # Plotting the bar chart
