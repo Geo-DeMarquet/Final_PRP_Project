@@ -22,7 +22,7 @@ def test_population_disorder():
 
     plt.xlabel('Area')
     plt.ylabel('Counts')
-    plt.title('Population vs Any Neurotic Disorder Cases')
+    plt.title('Population vs Any Neurotic Disorder Estimated Cases')
     plt.xticks(rotation=90) #stylisation + readability
     plt.legend()
     plt.tight_layout()
