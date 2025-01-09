@@ -1,0 +1,12 @@
+##Tests are as follows:
+
+All libraries are succesfully imported alongside the CSV file
+Assumptions in place to ensure that the CSV file is being read through succesfully.
+Error/Success message will be output based on outcome.
+Relevant plot should be output for each test function.
+Each plot should have data from Mental_Health.csv pulled through succesfully.
+Each plot should have labelled axes, a title and be clear to the viewer.
+Each plot should be saved as a PNG file.
+Each plot should be saved as an artifact within CircleCI as a PNG file.
+Each of these artifacts should be accessible and viewable within CircleCI.
+User can download each of the artifacts to their system (either through repo or CircleCI artifacts.)
